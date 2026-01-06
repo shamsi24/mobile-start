@@ -1,0 +1,10 @@
+[
+{
+  "featureType": "all",
+  "elementType": "all",
+  "stylers": [
+    { "saturation": 0 },
+    { "lightness": 0 }
+  ]
+}
+]

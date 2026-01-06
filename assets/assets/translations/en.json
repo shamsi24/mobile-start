@@ -1,0 +1,88 @@
+{
+  "common": {
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "confirm": "Confirm",
+    "approve": "Approve",
+    "close": "Close",
+    "cancel": "Cancel",
+    "next": "Next",
+    "back": "Back",
+    "skip": "Skip",
+    "start": "Start",
+    "buyNow": "Buy now",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "filter": "Filter",
+    "all": "All",
+    "open": "Open",
+    "closed": "Closed",
+    "example": "Example"
+  },
+
+  "auth": {
+    "login": "Log in",
+    "logout": "Log out",
+    "logoutConfirm": "Are you sure you want to log out?",
+    "loginAsGuest": "Continue as guest",
+    "enterOtpCode": "Enter the OTP code sent to your phone",
+    "resend": "Resend",
+    "didYouForgetPin": "Forgot your PIN?",
+    "resetPinConfirm": "Are you sure you want to reset your PIN?"
+  },
+
+  "validation": {
+    "cantBeEmpty": "Cannot be empty",
+    "minimum6SymbolError": "Must be at least 6 characters",
+    "minimum7SymbolError": "Must be at least 7 characters",
+    "minimum12SymbolError": "Must be at least 12 characters",
+    "amountCantBeSmallOrEqualZero": "Amount cannot be zero or less"
+  },
+
+  "network": {
+    "noInternet": "No internet connection",
+    "errorOccurred": "An error occurred"
+  },
+
+  "payment": {
+    "balance": "Balance",
+    "topUp": "Top up balance",
+    "enterAmount": "Enter amount",
+    "confirmAmount": "Confirm amount",
+    "paymentFailed": "Payment failed",
+    "payWithWallet": "Pay with wallet",
+    "azn": "AZN"
+  },
+
+  "dates": {
+    "startTime": "Start time",
+    "endTime": "End time",
+    "expiryDate": "Expiry date",
+    "history": "History"
+  },
+
+  "status": {
+    "inProgress": "In progress",
+    "completed": "Completed",
+    "timeout": "Timed out",
+    "active": "Active"
+  },
+
+  "language": {
+    "changeLanguage": "Change language",
+    "az": "Azerbaijani",
+    "tr": "Turkish",
+    "en": "English",
+    "ru": "Russian"
+  },
+
+  "documents": {
+    "privacyPolicy": "Privacy policy",
+    "termsOfUse": "Terms of use",
+    "termsAndConditions": "Terms and conditions",
+    "personalDataPolicy": "Personal data processing policy",
+    "documents": "Documents"
+  }
+}

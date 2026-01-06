@@ -1,0 +1,88 @@
+{
+  "common": {
+    "ok": "ОК",
+    "yes": "Да",
+    "no": "Нет",
+    "confirm": "Подтвердить",
+    "approve": "Подтвердить",
+    "close": "Закрыть",
+    "cancel": "Отмена",
+    "next": "Далее",
+    "back": "Назад",
+    "skip": "Пропустить",
+    "start": "Начать",
+    "buyNow": "Купить сейчас",
+    "save": "Сохранить",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "filter": "Фильтр",
+    "all": "Все",
+    "open": "Открыто",
+    "closed": "Закрыто",
+    "example": "Пример"
+  },
+
+  "auth": {
+    "login": "Войти",
+    "logout": "Выйти",
+    "logoutConfirm": "Вы уверены, что хотите выйти?",
+    "loginAsGuest": "Войти как гость",
+    "enterOtpCode": "Введите OTP-код, отправленный на ваш телефон",
+    "resend": "Отправить снова",
+    "didYouForgetPin": "Забыли PIN-код?",
+    "resetPinConfirm": "Вы уверены, что хотите сбросить PIN-код?"
+  },
+
+  "validation": {
+    "cantBeEmpty": "Поле не может быть пустым",
+    "minimum6SymbolError": "Минимум 6 символов",
+    "minimum7SymbolError": "Минимум 7 символов",
+    "minimum12SymbolError": "Минимум 12 символов",
+    "amountCantBeSmallOrEqualZero": "Сумма не может быть меньше или равна нулю"
+  },
+
+  "network": {
+    "noInternet": "Нет подключения к интернету",
+    "errorOccurred": "Произошла ошибка"
+  },
+
+  "payment": {
+    "balance": "Баланс",
+    "topUp": "Пополнить баланс",
+    "enterAmount": "Введите сумму",
+    "confirmAmount": "Подтвердите сумму",
+    "paymentFailed": "Платеж не прошел",
+    "payWithWallet": "Оплатить с кошелька",
+    "azn": "AZN"
+  },
+
+  "dates": {
+    "startTime": "Время начала",
+    "endTime": "Время окончания",
+    "expiryDate": "Срок действия",
+    "history": "История"
+  },
+
+  "status": {
+    "inProgress": "В процессе",
+    "completed": "Завершено",
+    "timeout": "Время истекло",
+    "active": "Активно"
+  },
+
+  "language": {
+    "changeLanguage": "Изменить язык",
+    "az": "Азербайджанский",
+    "tr": "Турецкий",
+    "en": "Английский",
+    "ru": "Русский"
+  },
+
+  "documents": {
+    "privacyPolicy": "Политика конфиденциальности",
+    "termsOfUse": "Условия использования",
+    "termsAndConditions": "Условия использования",
+    "personalDataPolicy": "Политика обработки персональных данных",
+    "documents": "Документы"
+  }
+}

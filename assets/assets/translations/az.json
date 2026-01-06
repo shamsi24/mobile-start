@@ -1,0 +1,88 @@
+{
+  "common": {
+    "ok": "OK",
+    "yes": "Bəli",
+    "no": "Xeyr",
+    "confirm": "Təsdiq et",
+    "approve": "Təsdiqlə",
+    "close": "Bağla",
+    "cancel": "Ləğv et",
+    "next": "Növbəti",
+    "back": "Geri",
+    "skip": "Keç",
+    "start": "Başla",
+    "buyNow": "İndi al",
+    "save": "Yadda saxla",
+    "delete": "Sil",
+    "edit": "Redaktə et",
+    "filter": "Filtr",
+    "all": "Hamısı",
+    "open": "Açıq",
+    "closed": "Bağlı",
+    "example": "Nümunə"
+  },
+
+  "auth": {
+    "login": "Daxil ol",
+    "logout": "Çıxış et",
+    "logoutConfirm": "Çıxış etmək istədiyinizə əminsinizmi?",
+    "loginAsGuest": "Qonaq kimi daxil ol",
+    "enterOtpCode": "Telefonunuza göndərilən OTP kodunu daxil edin",
+    "resend": "Yenidən göndər",
+    "didYouForgetPin": "PIN kodunu unutmusunuz?",
+    "resetPinConfirm": "PIN kodunu sıfırlamaq istədiyinizə əminsinizmi?"
+  },
+
+  "validation": {
+    "cantBeEmpty": "Boş ola bilməz",
+    "minimum6SymbolError": "Minimum 6 simvol olmalıdır",
+    "minimum7SymbolError": "Minimum 7 simvol olmalıdır",
+    "minimum12SymbolError": "Minimum 12 simvol olmalıdır",
+    "amountCantBeSmallOrEqualZero": "Məbləğ sıfır və ya ondan kiçik ola bilməz"
+  },
+
+  "network": {
+    "noInternet": "İnternet bağlantısı yoxdur",
+    "errorOccurred": "Xəta baş verdi"
+  },
+
+  "payment": {
+    "balance": "Balans",
+    "topUp": "Balansı artır",
+    "enterAmount": "Məbləği daxil edin",
+    "confirmAmount": "Məbləği təsdiq edin",
+    "paymentFailed": "Ödəniş uğursuz oldu",
+    "payWithWallet": "Cüzdanla ödə",
+    "azn": "AZN"
+  },
+
+  "dates": {
+    "startTime": "Başlama vaxtı",
+    "endTime": "Bitmə vaxtı",
+    "expiryDate": "Son istifadə tarixi",
+    "history": "Tarixçə"
+  },
+
+  "status": {
+    "inProgress": "Davam edir",
+    "completed": "Tamamlandı",
+    "timeout": "Vaxt bitdi",
+    "active": "Aktiv"
+  },
+
+  "language": {
+    "changeLanguage": "Dili dəyiş",
+    "az": "Azərbaycanca",
+    "tr": "Türkcə",
+    "en": "İngiliscə",
+    "ru": "Rusca"
+  },
+
+  "documents": {
+    "privacyPolicy": "Gizlilik siyasəti",
+    "termsOfUse": "İstifadə qaydaları",
+    "termsAndConditions": "İstifadə qaydaları",
+    "personalDataPolicy": "Şəxsi məlumatların emalı siyasəti",
+    "documents": "Sənədlər"
+  }
+}

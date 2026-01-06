@@ -1,0 +1,11 @@
+{
+  "provider": "apple_pay",
+  "data": {
+    "merchantIdentifier": "merchant.wepower-hidayetov.az",
+    "displayName": "WePower",
+    "merchantCapabilities": ["3DS", "debit", "credit"],
+    "supportedNetworks": ["visa", "masterCard", "amex"],
+    "countryCode": "AZ",
+    "currencyCode": "AZN"
+  }
+}

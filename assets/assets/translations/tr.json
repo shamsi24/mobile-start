@@ -1,0 +1,88 @@
+{
+  "common": {
+    "ok": "Tamam",
+    "yes": "Evet",
+    "no": "Hayır",
+    "confirm": "Onayla",
+    "approve": "Onayla",
+    "close": "Kapat",
+    "cancel": "İptal",
+    "next": "İleri",
+    "back": "Geri",
+    "skip": "Geç",
+    "start": "Başla",
+    "buyNow": "Şimdi al",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "filter": "Filtre",
+    "all": "Tümü",
+    "open": "Açık",
+    "closed": "Kapalı",
+    "example": "Örnek"
+  },
+
+  "auth": {
+    "login": "Giriş yap",
+    "logout": "Çıkış yap",
+    "logoutConfirm": "Çıkış yapmak istediğinize emin misiniz?",
+    "loginAsGuest": "Misafir olarak giriş yap",
+    "enterOtpCode": "Telefonunuza gönderilen OTP kodunu girin",
+    "resend": "Yeniden gönder",
+    "didYouForgetPin": "PIN kodunuzu mu unuttunuz?",
+    "resetPinConfirm": "PIN kodunu sıfırlamak istediğinize emin misiniz?"
+  },
+
+  "validation": {
+    "cantBeEmpty": "Boş bırakılamaz",
+    "minimum6SymbolError": "En az 6 karakter olmalıdır",
+    "minimum7SymbolError": "En az 7 karakter olmalıdır",
+    "minimum12SymbolError": "En az 12 karakter olmalıdır",
+    "amountCantBeSmallOrEqualZero": "Tutar sıfırdan küçük veya eşit olamaz"
+  },
+
+  "network": {
+    "noInternet": "İnternet bağlantısı yok",
+    "errorOccurred": "Bir hata oluştu"
+  },
+
+  "payment": {
+    "balance": "Bakiye",
+    "topUp": "Bakiye yükle",
+    "enterAmount": "Tutarı girin",
+    "confirmAmount": "Tutarı onaylayın",
+    "paymentFailed": "Ödeme başarısız oldu",
+    "payWithWallet": "Cüzdan ile öde",
+    "azn": "AZN"
+  },
+
+  "dates": {
+    "startTime": "Başlangıç saati",
+    "endTime": "Bitiş saati",
+    "expiryDate": "Son kullanma tarihi",
+    "history": "Geçmiş"
+  },
+
+  "status": {
+    "inProgress": "Devam ediyor",
+    "completed": "Tamamlandı",
+    "timeout": "Süre doldu",
+    "active": "Aktif"
+  },
+
+  "language": {
+    "changeLanguage": "Dili değiştir",
+    "az": "Azerbaycanca",
+    "tr": "Türkçe",
+    "en": "İngilizce",
+    "ru": "Rusça"
+  },
+
+  "documents": {
+    "privacyPolicy": "Gizlilik politikası",
+    "termsOfUse": "Kullanım şartları",
+    "termsAndConditions": "Kullanım şartları",
+    "personalDataPolicy": "Kişisel verilerin işlenmesi politikası",
+    "documents": "Belgeler"
+  }
+}
