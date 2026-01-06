@@ -1,16 +1,10 @@
-# structure
-
-A new Flutter project.
+# Download repo as zip file and start your new project from this template
 
 ## Getting Started
+1. After downloading unzip files and open with preferred IDE.
+2. Press CTRL + SHIFT + R to find and replace in the whole project.
+3. Search for shamsi_mobile_template and replace with your project name.
+4. Find app.dart and change application name
+## Start coding
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
