@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:rht_mobile_template/presentation/router/navigation.dart';
-import 'package:rht_mobile_template/presentation/shared/shared.dart';
+import 'package:shamsi_mobile_template/presentation/router/navigation.dart';
+import 'package:shamsi_mobile_template/presentation/shared/shared.dart';
 
 class ClickableText extends StatelessWidget {
   final RouteName? routeName;

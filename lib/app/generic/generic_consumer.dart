@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rht_mobile_template/app/generic/generic_state.dart';
-import 'package:rht_mobile_template/presentation/components/bottom-sheet/primary_bottom_sheet.dart';
-import 'package:rht_mobile_template/presentation/components/indicator/loading_indicator.dart';
+import 'package:shamsi_mobile_template/app/generic/generic_state.dart';
+import 'package:shamsi_mobile_template/presentation/components/bottom-sheet/primary_bottom_sheet.dart';
+import 'package:shamsi_mobile_template/presentation/components/indicator/loading_indicator.dart';
 
-class GenericConsumer<B extends StateStreamable<S>, S> extends BlocConsumer<B, S> {
+class GenericConsumer<B extends StateStreamable<S>, S>
+    extends BlocConsumer<B, S> {
   const GenericConsumer({
     super.key,
     required super.builder,

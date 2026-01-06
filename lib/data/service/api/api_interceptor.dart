@@ -2,9 +2,9 @@ import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:rht_mobile_template/data/exception/error.dart';
-import 'package:rht_mobile_template/data/service/preferences/preferences.dart';
-import 'package:rht_mobile_template/presentation/router/navigation.dart';
+import 'package:shamsi_mobile_template/data/exception/error.dart';
+import 'package:shamsi_mobile_template/data/service/preferences/preferences.dart';
+import 'package:shamsi_mobile_template/presentation/router/navigation.dart';
 
 class ApiInterceptor extends Interceptor {
   final Dio dio;
@@ -12,7 +12,8 @@ class ApiInterceptor extends Interceptor {
   ApiInterceptor({required this.dio});
 
   @override
-  void onRequest(RequestOptions options, RequestInterceptorHandler handler) async {
+  void onRequest(
+      RequestOptions options, RequestInterceptorHandler handler) async {
     final prefs = await PreferencesService.instance;
     options.headers["accept"] = "*/*";
     options.headers["Accept-Encoding"] = "gzip, deflate, br";

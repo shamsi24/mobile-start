@@ -1,5 +1,5 @@
-name: rht_mobile_template
-description: "A new Flutter project."
+name: shamsi_mobile_template
+description: "by shamsi24"
 publish_to: 'none'
 
 
@@ -14,70 +14,70 @@ dependencies:
     sdk: flutter
 
   #State Management
-  flutter_bloc: ^8.1.5
-  provider: ^6.1.2
+  flutter_bloc: ^9.1.1
+  provider: ^6.1.5+1
 
   #Network
-  dio: ^5.4.3+1
-  connectivity_plus: ^6.0.2
+  dio: ^5.9.0
+  connectivity_plus: ^7.0.0
 
   #Dependecy Injection
-  get_it: ^7.7.0
+  get_it: ^9.2.0
 
   #UI and Styling
-  google_fonts: ^6.2.1
-  loading_animation_widget: ^1.2.1
-  animations: ^2.0.11
+  google_fonts: ^6.3.3
+  loading_animation_widget: ^1.3.0
+  animations: ^2.1.1
   badges: ^3.1.2
 
   #User Authentication
-  local_auth: ^2.2.0
+  local_auth: ^3.0.0
 
   #Utility
-  equatable: ^2.0.5
+  equatable: ^2.0.8
 
   #Image Handling
-  image_picker: ^1.1.0
-  cached_network_image: ^3.3.1
+  image_picker: ^1.2.1
+  cached_network_image: ^3.4.1
 
   #Localization
-  easy_localization: ^3.0.7
-  intl: ^0.19.0
+  easy_localization: ^3.0.8
+  intl: ^0.20.2
 
   #Notifications
-  flutter_local_notifications: ^17.2.2
+  flutter_local_notifications: ^19.5.0
 
   #Firebase Integration
-  firebase_messaging: ^15.0.4
-  firebase_core: ^3.3.0
+  firebase_messaging: ^16.1.0
+  firebase_core: ^4.3.0
 
   #Other
-  rxdart: ^0.27.7
+  rxdart: ^0.28.0
   dartz: ^0.10.1
-  cupertino_icons: ^1.0.6
-  shared_preferences: ^2.2.3
-  lottie: ^3.1.2
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.4
+  lottie: ^3.3.2
   extended_masked_text: ^3.0.1
-  lazy_load_indexed_stack: ^1.1.0
-  share_plus: ^10.0.0
-  path_provider: ^2.1.3
+  lazy_load_indexed_stack: ^1.2.1
+  share_plus: ^12.0.1
+  path_provider: ^2.1.5
   animated_custom_dropdown: ^3.1.1
-  change_app_package_name: ^1.3.0
+  change_app_package_name: ^1.5.0
   flutter_screenutil: ^5.9.3
-  flutter_svg: ^2.0.10+1
+  flutter_svg: ^2.2.3
   retry: ^3.1.2
-  infinite_scroll_pagination: ^4.0.0
+  infinite_scroll_pagination: ^5.1.1
   logging_service:
     git:
-      url: https://github.com/samiraghayev12/logging.git
+      url: https://github.com/shamsi24/logging_service.git
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^3.0.1
-  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
 
 
 

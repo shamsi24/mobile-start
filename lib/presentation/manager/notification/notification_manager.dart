@@ -3,9 +3,9 @@ import 'dart:io';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:rht_mobile_template/data/service/preferences/preferences.dart';
-import 'package:rht_mobile_template/presentation/manager/notification/notification_model.dart';
 import 'package:rxdart/rxdart.dart';
+import 'package:shamsi_mobile_template/data/service/preferences/preferences.dart';
+import 'package:shamsi_mobile_template/presentation/manager/notification/notification_model.dart';
 
 class NotificationManager {
   final _firebaseMessaging = FirebaseMessaging.instance;
@@ -14,8 +14,10 @@ class NotificationManager {
   final _notificationControllerTest = BehaviorSubject<RemoteMessage?>();
   final _flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
 
-  Stream<FirebaseNotificationModel?> get notificationStream => _notificationController.stream;
-  Stream<RemoteMessage?> get notificationStreamTest => _notificationControllerTest.stream;
+  Stream<FirebaseNotificationModel?> get notificationStream =>
+      _notificationController.stream;
+  Stream<RemoteMessage?> get notificationStreamTest =>
+      _notificationControllerTest.stream;
 
   Future initializeNotifications() async {
     await _registerIOS();
@@ -46,10 +48,12 @@ class NotificationManager {
     );
 
     await _flutterLocalNotificationsPlugin
-        .resolvePlatformSpecificImplementation<AndroidFlutterLocalNotificationsPlugin>()
+        .resolvePlatformSpecificImplementation<
+            AndroidFlutterLocalNotificationsPlugin>()
         ?.requestNotificationsPermission();
 
-    const androidInitialize = AndroidInitializationSettings('mipmap/launcher_icon');
+    const androidInitialize =
+        AndroidInitializationSettings('mipmap/launcher_icon');
     const iOSInitialize = DarwinInitializationSettings(
       requestAlertPermission: true,
       requestBadgePermission: true,
@@ -127,7 +131,8 @@ class NotificationManager {
 
   _registerIOS() async {
     if (Platform.isIOS) {
-      NotificationSettings settings = await _firebaseMessaging.requestPermission(
+      NotificationSettings settings =
+          await _firebaseMessaging.requestPermission(
         alert: true,
         badge: true,
         sound: true,

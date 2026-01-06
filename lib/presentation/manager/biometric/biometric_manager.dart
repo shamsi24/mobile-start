@@ -38,12 +38,10 @@ class BiometricManager {
   Future<bool> authenticate() async {
     try {
       return await localAuthentication.authenticate(
-          localizedReason: 'Daxil olmaq üçün biometrik məlumatlarınızı təsdiqləyin',
-          options: const AuthenticationOptions(
-            useErrorDialogs: true,
-            stickyAuth: true,
-            biometricOnly: true,
-          ));
+        localizedReason:
+            'Daxil olmaq üçün biometrik məlumatlarınızı təsdiqləyin',
+        biometricOnly: true,
+      );
     } on PlatformException catch (e) {
       if (kDebugMode) print(e);
     }

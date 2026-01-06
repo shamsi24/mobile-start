@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:rht_mobile_template/app/generic/generic_state.dart';
-import 'package:rht_mobile_template/presentation/components/indicator/loading_indicator.dart';
+import 'package:shamsi_mobile_template/app/generic/generic_state.dart';
+import 'package:shamsi_mobile_template/presentation/components/indicator/loading_indicator.dart';
 
-class GenericBuilder<B extends StateStreamable<S>, S> extends BlocBuilder<B, S> {
+class GenericBuilder<B extends StateStreamable<S>, S>
+    extends BlocBuilder<B, S> {
   const GenericBuilder({
     super.key,
     required super.builder,

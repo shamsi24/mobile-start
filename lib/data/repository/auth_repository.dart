@@ -1,5 +1,5 @@
 // import 'package:dartz/dartz.dart';
-// import 'package:rht_mobile_template/data/exception/error.dart';
+// import 'package:shamsi_mobile_template/data/exception/error.dart';
 //
 // abstract class AuthRepository {
 //   Future<Either<HttpException, void>> login(LoginInput input);

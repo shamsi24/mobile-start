@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rht_mobile_template/presentation/shared/size.dart';
+import 'package:shamsi_mobile_template/presentation/shared/size.dart';
 
 class CustomListTile extends StatelessWidget {
   final Widget? leading;
@@ -8,7 +8,13 @@ class CustomListTile extends StatelessWidget {
   final Widget? trailing;
   final Widget? trailingSubtitle;
 
-  const CustomListTile({super.key, this.leading, this.title, this.subtitle, this.trailing, this.trailingSubtitle});
+  const CustomListTile(
+      {super.key,
+      this.leading,
+      this.title,
+      this.subtitle,
+      this.trailing,
+      this.trailingSubtitle});
 
   @override
   Widget build(BuildContext context) {
@@ -34,7 +40,8 @@ class CustomListTile extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             if (trailing != null) trailing ?? const SizedBox.shrink(),
-            if (trailingSubtitle != null) trailingSubtitle ?? const SizedBox.shrink(),
+            if (trailingSubtitle != null)
+              trailingSubtitle ?? const SizedBox.shrink(),
           ],
         )
       ],

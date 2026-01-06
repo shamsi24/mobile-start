@@ -1,5 +1,5 @@
-import 'package:rht_mobile_template/app/generic/generic_state.dart';
-import 'package:rht_mobile_template/presentation/router/navigation.dart';
+import 'package:shamsi_mobile_template/app/generic/generic_state.dart';
+import 'package:shamsi_mobile_template/presentation/router/navigation.dart';
 
 // This file defines different application states that extend from the GenericState class.
 // These states are used to manage the navigation and flow of the app, based on the user's status or app conditions.
@@ -28,9 +28,11 @@ class NavigateToPage extends GenericState {
   // This state is used to navigate to a specific page within the app.
   // It contains a route (defined by RouteName) to indicate the target screen.
 
-  final RouteName route; // Holds the destination route that the app should navigate to.
+  final RouteName
+      route; // Holds the destination route that the app should navigate to.
 
-  NavigateToPage(this.route); // Constructor that takes the route as a parameter.
+  NavigateToPage(
+      this.route); // Constructor that takes the route as a parameter.
 
   @override
   List<Object?> get props => [route];

@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:rht_mobile_template/presentation/components/navbar/primary_bottom_navigation_bar_item.dart';
-import 'package:rht_mobile_template/presentation/shared/shared.dart';
-import 'package:rht_mobile_template/presentation/ui/main/provider/main_provider.dart';
+import 'package:shamsi_mobile_template/presentation/components/navbar/primary_bottom_navigation_bar_item.dart';
+import 'package:shamsi_mobile_template/presentation/shared/shared.dart';
+import 'package:shamsi_mobile_template/presentation/ui/main/provider/main_provider.dart';
 
 class PrimaryBottomNavigationBar extends StatelessWidget {
   const PrimaryBottomNavigationBar({super.key});

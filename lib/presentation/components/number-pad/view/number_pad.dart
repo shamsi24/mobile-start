@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:rht_mobile_template/presentation/components/button/number_button.dart';
-import 'package:rht_mobile_template/presentation/components/number-pad/model/number_pad_char_item.dart';
-import 'package:rht_mobile_template/presentation/components/number-pad/provider/number_pad_provider.dart';
+import 'package:shamsi_mobile_template/presentation/components/button/number_button.dart';
+import 'package:shamsi_mobile_template/presentation/components/number-pad/model/number_pad_char_item.dart';
+import 'package:shamsi_mobile_template/presentation/components/number-pad/provider/number_pad_provider.dart';
 
 class NumberPad extends StatelessWidget {
   final Function(PinItem) onTapNumber;

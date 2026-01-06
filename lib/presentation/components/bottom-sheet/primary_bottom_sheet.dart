@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:rht_mobile_template/presentation/components/button/primary_button.dart';
-import 'package:rht_mobile_template/presentation/router/navigation.dart';
-import 'package:rht_mobile_template/presentation/shared/shared.dart';
+import 'package:shamsi_mobile_template/presentation/components/button/primary_button.dart';
+import 'package:shamsi_mobile_template/presentation/router/navigation.dart';
+import 'package:shamsi_mobile_template/presentation/shared/shared.dart';
 
 class PrimaryBottomSheet {
   static show(

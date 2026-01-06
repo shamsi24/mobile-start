@@ -1,4 +1,4 @@
-import 'package:rht_mobile_template/presentation/components/delegate/selectable.dart';
+import 'package:shamsi_mobile_template/presentation/components/delegate/selectable.dart';
 
 abstract class Pageable implements Selectable {
   final String imagePath;

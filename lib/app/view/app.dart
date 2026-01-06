@@ -2,14 +2,14 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:rht_mobile_template/app/cubit/app_cubit.dart';
-import 'package:rht_mobile_template/app/cubit/app_state.dart';
-import 'package:rht_mobile_template/app/generic/generic_consumer.dart';
-import 'package:rht_mobile_template/app/generic/generic_state.dart';
-import 'package:rht_mobile_template/presentation/router/navigation.dart';
-import 'package:rht_mobile_template/presentation/router/route_generator.dart';
-import 'package:rht_mobile_template/presentation/shared/shared.dart';
-import 'package:rht_mobile_template/presentation/ui/main/view/main_page.dart';
+import 'package:shamsi_mobile_template/app/cubit/app_cubit.dart';
+import 'package:shamsi_mobile_template/app/cubit/app_state.dart';
+import 'package:shamsi_mobile_template/app/generic/generic_consumer.dart';
+import 'package:shamsi_mobile_template/app/generic/generic_state.dart';
+import 'package:shamsi_mobile_template/presentation/router/navigation.dart';
+import 'package:shamsi_mobile_template/presentation/router/route_generator.dart';
+import 'package:shamsi_mobile_template/presentation/shared/shared.dart';
+import 'package:shamsi_mobile_template/presentation/ui/main/view/main_page.dart';
 
 // The main application widget, which is stateless and manages the initial setup.
 class App extends StatelessWidget {
@@ -19,7 +19,8 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MediaQuery(
       // Copies the current media query and adjusts text scaling to be linear.
-      data: MediaQuery.of(context).copyWith(textScaler: const TextScaler.linear(1.0)),
+      data: MediaQuery.of(context)
+          .copyWith(textScaler: const TextScaler.linear(1.0)),
       child: ScreenUtilInit(
         // Initializes ScreenUtil for responsive design with a base size of 360x690.
         designSize: const Size(360, 690),
@@ -29,11 +30,15 @@ class App extends StatelessWidget {
             // App title and theme configuration.
             title: "E-Bina",
             theme: UITheme.appTheme,
-            navigatorKey: Navigation.navigatorKey, // Navigation control via a global key.
+            navigatorKey:
+                Navigation.navigatorKey, // Navigation control via a global key.
             locale: context.locale, // Locale configuration for localization.
-            supportedLocales: context.supportedLocales, // Supported languages for the app.
-            localizationsDelegates: context.localizationDelegates, // Localization delegate.
-            onGenerateRoute: RouteGenerator.generateRoute, // Handles route generation.
+            supportedLocales:
+                context.supportedLocales, // Supported languages for the app.
+            localizationsDelegates:
+                context.localizationDelegates, // Localization delegate.
+            onGenerateRoute:
+                RouteGenerator.generateRoute, // Handles route generation.
             home: GenericConsumer<AppCubit, GenericState>(
               // Listens to the state changes and updates the UI accordingly.
               builder: (context, state) => _buildPage(state),

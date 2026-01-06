@@ -1,10 +1,10 @@
 import 'package:get_it/get_it.dart';
 import 'package:local_auth/local_auth.dart';
-import 'package:rht_mobile_template/data/service/api/api.dart';
-import 'package:rht_mobile_template/presentation/components/helper/date_picker_helper.dart';
-import 'package:rht_mobile_template/presentation/manager/biometric/biometric_manager.dart';
-import 'package:rht_mobile_template/presentation/manager/notification/notification_manager.dart';
-import 'package:rht_mobile_template/presentation/shared/ui_refresh_controller.dart';
+import 'package:shamsi_mobile_template/data/service/api/api.dart';
+import 'package:shamsi_mobile_template/presentation/components/helper/date_picker_helper.dart';
+import 'package:shamsi_mobile_template/presentation/manager/biometric/biometric_manager.dart';
+import 'package:shamsi_mobile_template/presentation/manager/notification/notification_manager.dart';
+import 'package:shamsi_mobile_template/presentation/shared/ui_refresh_controller.dart';
 
 // Create a singleton instance of GetIt for dependency injection.
 GetIt locator = GetIt.instance;
@@ -23,7 +23,8 @@ class Injector {
     // Registers ApiService as a singleton, meaning a single instance is used throughout the app.
     locator.registerSingleton<ApiService>(ApiService());
     // Registers BiometricManager as a singleton with LocalAuthentication dependency.
-    locator.registerSingleton<BiometricManager>(BiometricManager(LocalAuthentication()));
+    locator.registerSingleton<BiometricManager>(
+        BiometricManager(LocalAuthentication()));
     // Registers NotificationManager as a singleton for managing notifications.
     locator.registerSingleton<NotificationManager>(NotificationManager());
     // Registers UIRefreshController as a singleton to manage UI refreshes.

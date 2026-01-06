@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:rht_mobile_template/presentation/shared/shared.dart';
+import 'package:shamsi_mobile_template/presentation/shared/shared.dart';
 
 class PrimaryButton extends StatelessWidget {
   final bool isEnabled;
@@ -48,7 +48,8 @@ class PrimaryButton extends StatelessWidget {
                     onTap?.call();
                   },
             style: ElevatedButton.styleFrom(
-              backgroundColor: backgroundColor ?? (hasBorder ? UIColor.clear : UIColor.primary),
+              backgroundColor: backgroundColor ??
+                  (hasBorder ? UIColor.clear : UIColor.primary),
               foregroundColor: UIColor.white,
               padding: EdgeInsets.zero,
               elevation: 0,
@@ -62,7 +63,9 @@ class PrimaryButton extends StatelessWidget {
             ),
             child: Ink(
               decoration: BoxDecoration(
-                color: hasBorder ? (onTap == null ? UIColor.white.withOpacity(0.5) : null) : null,
+                color: hasBorder
+                    ? (onTap == null ? UIColor.white.withOpacity(0.5) : null)
+                    : null,
                 border: null,
                 borderRadius: BorderRadius.circular(radius ?? 12.0),
               ),
@@ -81,7 +84,8 @@ class PrimaryButton extends StatelessWidget {
                           ? Label(
                               decoration: textDecoration ?? TextDecoration.none,
                               text: title,
-                              color: !hasBorder ? UIColor.white : UIColor.primary,
+                              color:
+                                  !hasBorder ? UIColor.white : UIColor.primary,
                               weight: fontWeight ?? FontWeight.bold,
                               size: 15.sp,
                             )
@@ -90,7 +94,8 @@ class PrimaryButton extends StatelessWidget {
                                 height: 24.sp,
                                 width: 24.sp,
                                 child: const CircularProgressIndicator(
-                                  valueColor: AlwaysStoppedAnimation<Color>(UIColor.white),
+                                  valueColor: AlwaysStoppedAnimation<Color>(
+                                      UIColor.white),
                                 ),
                               ),
                             ),

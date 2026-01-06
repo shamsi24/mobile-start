@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:rht_mobile_template/presentation/components/delegate/carousel_pageable.dart';
-import 'package:rht_mobile_template/presentation/shared/shared.dart';
+import 'package:shamsi_mobile_template/presentation/components/delegate/carousel_pageable.dart';
+import 'package:shamsi_mobile_template/presentation/shared/shared.dart';
 
 class PageIndicator extends StatelessWidget {
   final List<CarouselPageable> items;
@@ -25,7 +25,9 @@ class PageIndicator extends StatelessWidget {
                 width: 8.w,
                 duration: const Duration(milliseconds: 500),
                 decoration: BoxDecoration(
-                  color: item.isSelected ? UIColor.black : UIColor.black.withOpacity(0.2),
+                  color: item.isSelected
+                      ? UIColor.black
+                      : UIColor.black.withOpacity(0.2),
                   borderRadius: BorderRadius.all(
                     Radius.circular(4.w),
                   ),

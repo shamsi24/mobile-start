@@ -6,12 +6,12 @@ import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
 import 'package:logging_service/service/debug_logging.dart';
 import 'package:retry/retry.dart';
-import 'package:rht_mobile_template/data/endpoint/base/endpoint.dart';
-import 'package:rht_mobile_template/data/endpoint/base/upload_endpoint.dart';
-import 'package:rht_mobile_template/data/exception/error.dart';
-import 'package:rht_mobile_template/data/model/base/response_model.dart';
-import 'package:rht_mobile_template/data/service/api/api_interceptor.dart';
-import 'package:rht_mobile_template/presentation/utils/constants.dart';
+import 'package:shamsi_mobile_template/data/endpoint/base/endpoint.dart';
+import 'package:shamsi_mobile_template/data/endpoint/base/upload_endpoint.dart';
+import 'package:shamsi_mobile_template/data/exception/error.dart';
+import 'package:shamsi_mobile_template/data/model/base/response_model.dart';
+import 'package:shamsi_mobile_template/data/service/api/api_interceptor.dart';
+import 'package:shamsi_mobile_template/presentation/utils/constants.dart';
 
 class ApiService {
   final Dio _dio;
@@ -28,7 +28,8 @@ class ApiService {
     // Handle bad SSL certificates
     (_dio.httpClientAdapter as IOHttpClientAdapter).createHttpClient = () {
       final client = HttpClient();
-      client.badCertificateCallback = (X509Certificate cert, String host, int port) => true;
+      client.badCertificateCallback =
+          (X509Certificate cert, String host, int port) => true;
       return client;
     };
   }
@@ -50,7 +51,8 @@ class ApiService {
     }
   }
 
-  Future<Either<HttpException, T>> uploadFile<T>(UploadEndpoint endpoint) async {
+  Future<Either<HttpException, T>> uploadFile<T>(
+      UploadEndpoint endpoint) async {
     const r = RetryOptions(
       maxAttempts: 3,
       delayFactor: Duration(seconds: 2),
@@ -135,6 +137,8 @@ class ApiService {
   }
 
   bool _shouldRetry(DioException e) {
-    return e.type == DioExceptionType.connectionTimeout || e.type == DioExceptionType.receiveTimeout || e.type == DioExceptionType.sendTimeout;
+    return e.type == DioExceptionType.connectionTimeout ||
+        e.type == DioExceptionType.receiveTimeout ||
+        e.type == DioExceptionType.sendTimeout;
   }
 }

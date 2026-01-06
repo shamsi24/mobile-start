@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:rht_mobile_template/data/exception/error.dart';
+import 'package:shamsi_mobile_template/data/exception/error.dart';
 
 // The base class for all states, extending Equatable to support value comparison.
 abstract class GenericState extends Equatable {
@@ -26,7 +26,8 @@ class Success<T> extends GenericState {
 
 // Represents a failure state where an error occurred during an operation.
 class Failure extends GenericState {
-  final ErrorMessage error; // The error message or object containing details about the failure.
+  final ErrorMessage
+      error; // The error message or object containing details about the failure.
 
   Failure(this.error);
 

@@ -1,7 +1,7 @@
 import 'package:animated_custom_dropdown/custom_dropdown.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:rht_mobile_template/presentation/components/dropdown/model/dropdown_model.dart';
-import 'package:rht_mobile_template/presentation/shared/shared.dart';
+import 'package:shamsi_mobile_template/presentation/components/dropdown/model/dropdown_model.dart';
+import 'package:shamsi_mobile_template/presentation/shared/shared.dart';
 
 class PrimaryDropdown extends StatelessWidget {
   final List<DropdownModel> list;
@@ -48,7 +48,8 @@ class PrimaryDropdown extends StatelessWidget {
         ),
       ),
       hintText: 'Seçin',
-      closedHeaderPadding: const EdgeInsets.symmetric(vertical: 5, horizontal: 10),
+      closedHeaderPadding:
+          const EdgeInsets.symmetric(vertical: 5, horizontal: 10),
       initialItem: validInitialValue,
       listItemBuilder: (context, item, isSelected, index) {
         return Label(

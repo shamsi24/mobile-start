@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
-import 'package:rht_mobile_template/presentation/shared/shared.dart';
+import 'package:shamsi_mobile_template/presentation/shared/shared.dart';
 
 class NotFoundWidget extends StatelessWidget {
   const NotFoundWidget({super.key});
@@ -20,7 +20,8 @@ class NotFoundWidget extends StatelessWidget {
           const Label(
             align: TextAlign.center,
             color: UIColor.darkGrey,
-            text: "Heçbir məlumat tapılmadı\nZəhmət olmasa mülklərinizə aid məlumatların sistemə əlavə olunması üçün məsul ofisə yaxınlaşın!",
+            text:
+                "Heçbir məlumat tapılmadı\nZəhmət olmasa mülklərinizə aid məlumatların sistemə əlavə olunması üçün məsul ofisə yaxınlaşın!",
           ),
         ],
       ),

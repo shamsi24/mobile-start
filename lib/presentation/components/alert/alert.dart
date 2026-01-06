@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rht_mobile_template/presentation/components/button/primary_button.dart';
-import 'package:rht_mobile_template/presentation/components/field/primary_text_field.dart';
+import 'package:shamsi_mobile_template/presentation/components/button/primary_button.dart';
+import 'package:shamsi_mobile_template/presentation/components/field/primary_text_field.dart';
 
 class Alert {
   static showError(

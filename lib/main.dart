@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:rht_mobile_template/app/view/app_runner.dart';
-import 'package:rht_mobile_template/app/view/delegate.dart';
-import 'package:rht_mobile_template/app/view/di.dart';
+import 'package:shamsi_mobile_template/app/view/app_runner.dart';
+import 'package:shamsi_mobile_template/app/view/delegate.dart';
+import 'package:shamsi_mobile_template/app/view/di.dart';
 
 import 'presentation/manager/connection/connection_manager.dart';
 

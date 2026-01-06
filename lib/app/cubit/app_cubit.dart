@@ -4,10 +4,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:logging_service/storage/debug_tool.dart';
-import 'package:rht_mobile_template/app/cubit/app_state.dart';
-import 'package:rht_mobile_template/app/generic/generic_state.dart';
-import 'package:rht_mobile_template/data/service/preferences/preferences.dart';
-import 'package:rht_mobile_template/presentation/router/navigation.dart';
+import 'package:shamsi_mobile_template/app/cubit/app_state.dart';
+import 'package:shamsi_mobile_template/app/generic/generic_state.dart';
+import 'package:shamsi_mobile_template/data/service/preferences/preferences.dart';
+import 'package:shamsi_mobile_template/presentation/router/navigation.dart';
 
 class AppCubit extends Cubit<GenericState> {
   // Constructor initializes the cubit state and triggers the 'check' and '_startDebugTool' methods.
@@ -30,7 +30,7 @@ class AppCubit extends Cubit<GenericState> {
 
   // Starts the debug tool for tracking logs or debugging info.
   void _startDebugTool() {
-    DebugTool().start(Navigation.context);
+    DebugTool().start(Navigation.context, "");
   }
 
   // Getter for accessing the list of pages.

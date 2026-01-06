@@ -1,9 +1,10 @@
 import 'dart:developer';
 
-import 'package:rht_mobile_template/presentation/utils/connection_status_listener.dart';
+import 'package:shamsi_mobile_template/presentation/utils/connection_status_listener.dart';
 
 class ConnectionManager {
-  final ConnectionStatusListener _connectionStatus = ConnectionStatusListener.instance;
+  final ConnectionStatusListener _connectionStatus =
+      ConnectionStatusListener.instance;
 
   Future<void> initNoInternetListener() async {
     await _connectionStatus.initialize();

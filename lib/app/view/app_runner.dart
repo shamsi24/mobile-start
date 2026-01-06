@@ -2,9 +2,9 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:rht_mobile_template/app/cubit/app_cubit.dart';
-import 'package:rht_mobile_template/app/view/app.dart';
-import 'package:rht_mobile_template/presentation/ui/main/provider/main_provider.dart';
+import 'package:shamsi_mobile_template/app/cubit/app_cubit.dart';
+import 'package:shamsi_mobile_template/app/view/app.dart';
+import 'package:shamsi_mobile_template/presentation/ui/main/provider/main_provider.dart';
 
 // The main entry point for the application, managing localization and global providers.
 class AppRunner extends StatelessWidget {
@@ -15,12 +15,14 @@ class AppRunner extends StatelessWidget {
     return EasyLocalization(
       // Enables saving of the chosen locale and sets the initial language to Azerbaijani (az).
       saveLocale: true,
-      startLocale: const Locale('az'), // Sets Azerbaijani as the starting locale.
+      startLocale:
+          const Locale('az'), // Sets Azerbaijani as the starting locale.
       path: "assets/translations", // Path to the translation files.
       supportedLocales: const [
         Locale("az"), // The supported locales, only Azerbaijani is enabled.
       ],
-      fallbackLocale: const Locale("az"), // Fallback to Azerbaijani if a locale is unsupported.
+      fallbackLocale: const Locale(
+          "az"), // Fallback to Azerbaijani if a locale is unsupported.
 
       // MultiProvider allows multiple providers to be available to the widget tree.
       child: MultiProvider(

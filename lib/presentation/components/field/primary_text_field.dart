@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:rht_mobile_template/presentation/shared/shared.dart';
+import 'package:shamsi_mobile_template/presentation/shared/shared.dart';
 
 class PrimaryTextField extends StatelessWidget {
   final Function(String)? onTextChanged;
@@ -113,7 +113,8 @@ class PrimaryTextField extends StatelessWidget {
           minLines: minLine,
           maxLength: maxLength,
           maxLines: maxLine ?? 1,
-          buildCounter: (context, {required currentLength, required isFocused, maxLength}) {
+          buildCounter: (context,
+              {required currentLength, required isFocused, maxLength}) {
             return maxLength != null
                 ? Container(
                     transform: Matrix4.translationValues(2, -30, 0),
@@ -160,7 +161,9 @@ class PrimaryTextField extends StatelessWidget {
             errorStyle: const TextStyle(color: UIColor.red),
             disabledBorder: !hasBorder ? borderWith() : borderRadius(),
             enabledBorder: !hasBorder ? borderWith() : borderRadius(),
-            focusedBorder: !hasBorder ? borderWith(color: UIColor.primary) : borderRadius(),
+            focusedBorder: !hasBorder
+                ? borderWith(color: UIColor.primary)
+                : borderRadius(),
           ),
         ),
         if (headText != null) 16.vertical,
