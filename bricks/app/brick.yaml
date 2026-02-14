@@ -1,0 +1,12 @@
+name: app
+
+vars:
+  name:
+    type: string
+    description: Application name
+    default: my_app
+
+  org:
+    type: string
+    description: Organization domain
+    default: com.shamsi25
