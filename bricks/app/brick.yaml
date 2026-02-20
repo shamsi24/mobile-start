@@ -1,4 +1,6 @@
 name: app
+description: shamsi24
+version: 0.1.0
 
 vars:
   name:
@@ -10,3 +12,4 @@ vars:
     type: string
     description: Organization domain
     default: com.shamsi25
+
