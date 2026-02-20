@@ -3,14 +3,14 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:upgrader/upgrader.dart';
-import 'package:{{name.snakeCase}}/app/cubit/app_cubit.dart';
-import 'package:{{name.snakeCase}}/app/cubit/app_state.dart';
-import 'package:{{name.snakeCase}}/app/generic/generic_consumer.dart';
-import 'package:{{name.snakeCase}}/app/generic/generic_state.dart';
-import 'package:{{name.snakeCase}}/presentation/router/navigation.dart';
-import 'package:{{name.snakeCase}}/presentation/router/route_generator.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/shared.dart';
-import 'package:{{name.snakeCase}}/presentation/ui/splash_page/splash_pagepgrader/upgrader.dart';
+import 'package:{{name.snakeCase()}}/app/cubit/app_cubit.dart';
+import 'package:{{name.snakeCase()}}/app/cubit/app_state.dart';
+import 'package:{{name.snakeCase()}}/app/generic/generic_consumer.dart';
+import 'package:{{name.snakeCase()}}/app/generic/generic_state.dart';
+import 'package:{{name.snakeCase()}}/presentation/router/navigation.dart';
+import 'package:{{name.snakeCase()}}/presentation/router/route_generator.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/shared.dart';
+import 'package:{{name.snakeCase()}}/presentation/ui/splash_page/splash_pagepgrader/upgrader.dart';
 
 // The main application widget, which is stateless and manages the initial setup.
 class App extends StatelessWidget {
