@@ -1,5 +1,5 @@
 // import 'package:dartz/dartz.dart';
-// import 'package:{{name.snakeCase}}/data/exception/error.dart';
+// import 'package:{{name.snakeCase()}}/data/exception/error.dart';
 //
 // abstract class AuthRepository {
 //   Future<Either<HttpException, void>> login(LoginInput input);

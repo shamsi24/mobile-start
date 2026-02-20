@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:{{name.snakeCase}}/presentation/components/button/primary_button.dart';
-import 'package:{{name.snakeCase}}/presentation/components/field/primary_text_field.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/button/primary_button.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/field/primary_text_field.dart';
 
 class Alert {
   static showError(

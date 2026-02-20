@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:{{name.snakeCase}}/app/view/di.dart';
-import 'package:{{name.snakeCase}}/data/service/preferences/preferences.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/ui_refresh_controller.dart';
+import 'package:{{name.snakeCase()}}/app/view/di.dart';
+import 'package:{{name.snakeCase()}}/data/service/preferences/preferences.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/ui_refresh_controller.dart';
 
 enum BottomNavBarItem {
   home("Img.home", "main"),

@@ -1,4 +1,4 @@
-import 'package:{{name.snakeCase}}/presentation/components/delegate/selectable.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/delegate/selectable.dart';
 
 abstract class Pageable implements Selectable {
   final String imagePath;

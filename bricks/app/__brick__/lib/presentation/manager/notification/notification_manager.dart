@@ -4,8 +4,8 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:{{name.snakeCase}}/data/service/preferences/preferences.dart';
-import 'package:{{name.snakeCase}}/presentation/manager/notification/notification_model.dart';
+import 'package:{{name.snakeCase()}}/data/service/preferences/preferences.dart';
+import 'package:{{name.snakeCase()}}/presentation/manager/notification/notification_model.dart';
 
 class NotificationManager {
   final _firebaseMessaging = FirebaseMessaging.instance;

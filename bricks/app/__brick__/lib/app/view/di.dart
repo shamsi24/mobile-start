@@ -1,10 +1,10 @@
 import 'package:get_it/get_it.dart';
 import 'package:local_auth/local_auth.dart';
-import 'package:{{name.snakeCase}}/data/service/api/api.dart';
-import 'package:{{name.snakeCase}}/presentation/components/helper/date_picker_helper.dart';
-import 'package:{{name.snakeCase}}/presentation/manager/biometric/biometric_manager.dart';
-import 'package:{{name.snakeCase}}/presentation/manager/notification/notification_manager.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/ui_refresh_controller.dart';
+import 'package:{{name.snakeCase()}}/data/service/api/api.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/helper/date_picker_helper.dart';
+import 'package:{{name.snakeCase()}}/presentation/manager/biometric/biometric_manager.dart';
+import 'package:{{name.snakeCase()}}/presentation/manager/notification/notification_manager.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/ui_refresh_controller.dart';
 
 // Create a singleton instance of GetIt for dependency injection.
 GetIt locator = GetIt.instance;

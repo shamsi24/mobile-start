@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/size.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/size.dart';
 
 class CustomListTile extends StatelessWidget {
   final Widget? leading;

@@ -2,9 +2,9 @@ import 'dart:developer';
 
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:{{name.snakeCase}}/data/exception/error.dart';
-import 'package:{{name.snakeCase}}/data/service/preferences/preferences.dart';
-import 'package:{{name.snakeCase}}/presentation/router/navigation.dart';
+import 'package:{{name.snakeCase()}}/data/exception/error.dart';
+import 'package:{{name.snakeCase()}}/data/service/preferences/preferences.dart';
+import 'package:{{name.snakeCase()}}/presentation/router/navigation.dart';
 
 class ApiInterceptor extends Interceptor {
   final Dio dio;

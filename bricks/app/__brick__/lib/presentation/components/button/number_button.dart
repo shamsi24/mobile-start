@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:{{name.snakeCase}}/presentation/components/number-pad/model/number_pad_char_item.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/shared.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/number-pad/model/number_pad_char_item.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/shared.dart';
 
 class NumberButton extends StatelessWidget {
   final String? pinTitle;

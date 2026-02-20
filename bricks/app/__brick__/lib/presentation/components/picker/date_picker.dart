@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/shared.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/shared.dart';
 
 class DatePicker {
   static show(

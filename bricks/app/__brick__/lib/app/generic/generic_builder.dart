@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:{{name.snakeCase}}/app/generic/generic_state.dart';
-import 'package:{{name.snakeCase}}/presentation/components/indicator/loading_indicator.dart';
+import 'package:{{name.snakeCase()}}/app/generic/generic_state.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/indicator/loading_indicator.dart';
 
 class GenericBuilder<B extends StateStreamable<S>, S>
     extends BlocBuilder<B, S> {

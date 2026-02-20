@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/shared.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/shared.dart';
 
 class PinField extends StatelessWidget {
   final int maxNumberOfFields;

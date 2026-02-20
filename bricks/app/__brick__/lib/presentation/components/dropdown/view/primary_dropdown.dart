@@ -1,7 +1,7 @@
 import 'package:animated_custom_dropdown/custom_dropdown.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:{{name.snakeCase}}/presentation/components/dropdown/model/dropdown_model.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/shared.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/dropdown/model/dropdown_model.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/shared.dart';
 
 class PrimaryDropdown extends StatelessWidget {
   final List<DropdownModel> list;

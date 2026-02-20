@@ -1,5 +1,5 @@
 import 'package:equatable/equatable.dart';
-import 'package:{{name.snakeCase}}/data/exception/error.dart';
+import 'package:{{name.snakeCase()}}/data/exception/error.dart';
 
 // The base class for all states, extending Equatable to support value comparison.
 abstract class GenericState extends Equatable {

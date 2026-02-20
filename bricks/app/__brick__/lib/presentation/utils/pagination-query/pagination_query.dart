@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:dartz/dartz.dart';
 import 'package:infinite_scroll_pagination/infinite_scroll_pagination.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/string_x.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/string_x.dart';
 
 typedef RequestDef<T> = Future<Either<HttpException, List<T>>> Function(
     int args);

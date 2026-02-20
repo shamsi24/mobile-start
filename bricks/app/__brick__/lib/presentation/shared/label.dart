@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/shared.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/shared.dart';
 
 class Label extends StatelessWidget {
   final String? text;

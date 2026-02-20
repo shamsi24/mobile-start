@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:{{name.snakeCase}}/app/generic/generic_state.dart';
-import 'package:{{name.snakeCase}}/presentation/components/bottom-sheet/primary_bottom_sheet.dart';
+import 'package:{{name.snakeCase()}}/app/generic/generic_state.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/bottom-sheet/primary_bottom_sheet.dart';
 
 class GenericListener<B extends StateStreamable<S>, S>
     extends BlocListener<B, S> {

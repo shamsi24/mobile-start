@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:{{name.snakeCase}}/presentation/components/logo/logo.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/color.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/logo/logo.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/color.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});

@@ -1,4 +1,4 @@
-name: {{name.snakeCase}}
+name: {{name.snakeCase()}}
 description: "by shamsi24"
 publish_to: 'none'
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:{{name.snakeCase}}/presentation/components/number-pad/model/number_pad_char_item.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/number-pad/model/number_pad_char_item.dart';
 
 class NumberPadProvider extends ChangeNotifier {
   final List<List<PinItem>> _numberPadCharacters = [

@@ -2,9 +2,9 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
-import 'package:{{name.snakeCase}}/app/cubit/app_cubit.dart';
-import 'package:{{name.snakeCase}}/app/view/app.dart';
-import 'package:{{name.snakeCase}}/presentation/ui/main/provider/main_provider.dart';
+import 'package:{{name.snakeCase()}}/app/cubit/app_cubit.dart';
+import 'package:{{name.snakeCase()}}/app/view/app.dart';
+import 'package:{{name.snakeCase()}}/presentation/ui/main/provider/main_provider.dart';
 
 // The main entry point for the application, managing localization and global providers.
 class AppRunner extends StatelessWidget {

@@ -6,12 +6,12 @@ import 'package:dio/dio.dart';
 import 'package:dio/io.dart';
 import 'package:logging_service/service/debug_logging.dart';
 import 'package:retry/retry.dart';
-import 'package:{{name.snakeCase}}/data/endpoint/base/endpoint.dart';
-import 'package:{{name.snakeCase}}/data/endpoint/base/upload_endpoint.dart';
-import 'package:{{name.snakeCase}}/data/exception/error.dart';
-import 'package:{{name.snakeCase}}/data/model/base/response_model.dart';
-import 'package:{{name.snakeCase}}/data/service/api/api_interceptor.dart';
-import 'package:{{name.snakeCase}}/presentation/utils/constants.dart';
+import 'package:{{name.snakeCase()}}/data/endpoint/base/endpoint.dart';
+import 'package:{{name.snakeCase()}}/data/endpoint/base/upload_endpoint.dart';
+import 'package:{{name.snakeCase()}}/data/exception/error.dart';
+import 'package:{{name.snakeCase()}}/data/model/base/response_model.dart';
+import 'package:{{name.snakeCase()}}/data/service/api/api_interceptor.dart';
+import 'package:{{name.snakeCase()}}/presentation/utils/constants.dart';
 
 class ApiService {
   final Dio _dio;

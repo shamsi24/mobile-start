@@ -1,6 +1,6 @@
 import 'dart:developer';
 
-import 'package:{{name.snakeCase}}/presentation/utils/connection_status_listener.dart';
+import 'package:{{name.snakeCase()}}/presentation/utils/connection_status_listener.dart';
 
 class ConnectionManager {
   final ConnectionStatusListener _connectionStatus =

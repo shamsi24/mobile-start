@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:{{name.snakeCase}}/presentation/components/delegate/carousel_pageable.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/shared.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/delegate/carousel_pageable.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/shared.dart';
 
 class PageIndicator extends StatelessWidget {
   final List<CarouselPageable> items;

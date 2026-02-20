@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:{{name.snakeCase}}/app/generic/generic_state.dart';
-import 'package:{{name.snakeCase}}/data/exception/error.dart';
-import 'package:{{name.snakeCase}}/presentation/components/picker/date_picker.dart';
+import 'package:{{name.snakeCase()}}/app/generic/generic_state.dart';
+import 'package:{{name.snakeCase()}}/data/exception/error.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/picker/date_picker.dart';
 
 enum Calendar { startDate, endDate, orderDate }
 

@@ -1,5 +1,5 @@
-import 'package:{{name.snakeCase}}/app/generic/generic_state.dart';
-import 'package:{{name.snakeCase}}/presentation/router/navigation.dart';
+import 'package:{{name.snakeCase()}}/app/generic/generic_state.dart';
+import 'package:{{name.snakeCase()}}/presentation/router/navigation.dart';
 
 // This file defines different application states that extend from the GenericState class.
 // These states are used to manage the navigation and flow of the app, based on the user's status or app conditions.

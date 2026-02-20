@@ -4,10 +4,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:logging_service/storage/debug_tool.dart';
-import 'package:{{name.snakeCase}}/app/cubit/app_state.dart';
-import 'package:{{name.snakeCase}}/app/generic/generic_state.dart';
-import 'package:{{name.snakeCase}}/data/service/preferences/preferences.dart';
-import 'package:{{name.snakeCase}}/presentation/router/navigation.dart';
+import 'package:{{name.snakeCase()}}/app/cubit/app_state.dart';
+import 'package:{{name.snakeCase()}}/app/generic/generic_state.dart';
+import 'package:{{name.snakeCase()}}/data/service/preferences/preferences.dart';
+import 'package:{{name.snakeCase()}}/presentation/router/navigation.dart';
 
 class AppCubit extends Cubit<GenericState> {
   // Constructor initializes the cubit state and triggers the 'check' and '_startDebugTool' methods.

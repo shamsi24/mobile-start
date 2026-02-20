@@ -4,9 +4,9 @@ import 'package:animations/animations.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:{{name.snakeCase}}/presentation/components/appbar/primary_app_bar.dart';
-import 'package:{{name.snakeCase}}/presentation/router/navigation.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/shared.dart';
+import 'package:{{name.snakeCase()}}/presentation/components/appbar/primary_app_bar.dart';
+import 'package:{{name.snakeCase()}}/presentation/router/navigation.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/shared.dart';
 
 class RouteGenerator {
   RouteGenerator._();

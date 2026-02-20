@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:{{name.snakeCase}}/presentation/router/navigation.dart';
-import 'package:{{name.snakeCase}}/presentation/shared/shared.dart';
+import 'package:{{name.snakeCase()}}/presentation/router/navigation.dart';
+import 'package:{{name.snakeCase()}}/presentation/shared/shared.dart';
 
 class ClickableText extends StatelessWidget {
   final RouteName? routeName;
