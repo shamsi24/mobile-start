@@ -13,7 +13,3 @@ vars:
     description: Organization domain
     default: com.shamsi25
 
-
-ignore:
-  - "assets/**"
-  - "__brick__/assets/**"
