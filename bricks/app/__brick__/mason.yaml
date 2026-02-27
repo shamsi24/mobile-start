@@ -1,3 +1,9 @@
 files:
   - path: assets/**
     template: false
+  - path: "**/*.png"
+    template: false
+  - path: "**/*.ttf"
+    template: false
+  - path: "**/*.json"
+    template: false
