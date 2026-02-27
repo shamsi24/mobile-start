@@ -2,6 +2,12 @@ name: app
 description: shamsi24
 version: 0.1.0
 
+
+
+ignore:
+  - "assets/**"
+
+  
 vars:
   name:
     type: string
